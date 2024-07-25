@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background-color: rgb(237, 240, 243);
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.navbar{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(84, 79, 79);
+    width: 100%;
+    margin-bottom:5px;
+    height: 70px;
+}
+.logo{
+    margin-left: 55px;
+    width: 150px;
+    height: 50px;
+}
+.list{
+    position: relative;
+    width: auto;
+    left: 35%;
+    color: rgb(53, 55, 55);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.ul-h{
+    display: flex;
+}
+.li-h{
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: color 0.5s;
+}
+.li-h:hover{
+    cursor: pointer;
+    color: rgb(233, 103, 4);
+}
+a{
+    text-decoration:none;
+}
+.dropdown{
+    margin-left: 9px;
+}
+.dropdown-menu{
+    display: none;
+        position: relative;
+        background: #f8f8f8;
+        padding: 15px;
+        box-shadow: none;
+        margin-top: 10px;
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+        opacity: 1;
+        /* visibility: visible; */
+        position: absolute;
+        background: #fafafa;
+        text-align: left;
+        top: 70%;
+        min-width: 180px;
+        /* z-index: 9999; */
+        padding: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+        border-radius: 4px;
+    
+}
+.search{
+    width: 30px;
+    height: 20px;
+}
+img:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.text{
+    position: absolute;
+    font: 3em Lato;
+    max-width: 900px;
+    color: rgb(70, 68, 68);
+    min-width: 700px;
+    top: 15%;
+    left: 6%;
+
+}
+
+.bg{
+    width:100%;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+.background{
+    display: flex;
+    justify-content: center;
+}
+.ocean{
+    width: 1600px;
+    max-width: 100%;
+}
