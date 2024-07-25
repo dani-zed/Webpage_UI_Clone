@@ -61,13 +61,14 @@ a{
     
 }
 .dropdown:hover .dropdown-menu{
+    z-index: 1;
     display: block;
         opacity: 1;
         /* visibility: visible; */
-        position: absolute;
+        position: fixed;
         background: #fafafa;
         text-align: left;
-        top: 70%;
+        top: 7%;
         min-width: 180px;
         /* z-index: 9999; */
         padding: 15px;
